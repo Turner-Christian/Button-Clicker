@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* header */
+nav {
+    padding: 15px 50px;
+    margin: 0px auto;
+    background-color:rgb(154, 154, 154);
+    width: 70%;
+    display: flex;
+    justify-content:  space-between;
+}
+
+nav h1 {
+    font-size: 250%;
+}
+
+nav input {
+    width: 20%;
+    border: 2px solid black;
+}
+
+nav button {
+    font-weight:bold;
+    font-size: 15px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 5rem;
+    color: white;
+}
+
+/* main content */
+
+
+#wrapper{
+    margin: 0px auto;
+    width: 77.6%;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    margin: 10px;
+    padding: 12px;
+    flex: 2;
+}
+.col-2 {
+    margin: 10px;
+    padding: 12px;
+    flex: 1;
+}
+
+.card {
+    border: 5px solid black;
+    margin-bottom: 30px;
+    display: flex;
+    padding: 7%;
+}
+
+.card-head {
+    padding: 20px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 12rem;
+    font-size: 130%;
+    justify-content: space-evenly;
+}
+
+.card-head h2 {
+    margin-bottom: 10px;
+    font-size: 200%;
+}
+
+.card-head span {
+    font-style: italic;
+}
+
+.card-head p {
+    margin-bottom: 10px;
+}
+
+.card-head button {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid black;
+    padding: 7px;
+    min-width: 100%;
+    box-shadow: 5px 5px 3px black;
+}
+
+.card-des {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-des p {
+    font-size: 140%;
+    font-weight:bold;
+}
+
+
+/* side content */
+.side-card {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    align-items: center;
+}
+
+.side-card p {
+    font-size: 250%;
+    padding: 40px;
+
+}
+
+.side-card span {
+    font-weight: bold;
+}
+
+.side-card button {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid black;
+    padding: 7px;
+    margin-bottom: 28px;
+    width: 50%;
+    box-shadow: 5px 5px 3px black;
+}
